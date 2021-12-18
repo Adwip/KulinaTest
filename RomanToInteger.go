@@ -13,8 +13,10 @@ func main() {
     fmt.Printf("Angka romannya adalah : %s", romanValue)
     fmt.Println()
     romanSlice = strings.Split(romanValue,"")
+    
     for _, val := range romanSlice{
         numberResult += romanNumber[val]
     }
+
     fmt.Printf("Hasil angkanya adalah : %d", numberResult)
 }

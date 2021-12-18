@@ -26,7 +26,6 @@ func main() {
     }
     
     fmt.Printf("Output : ")
-    // for j:=0; j<value; j++{
+    
         fmt.Println(result)
-    // }
 }
